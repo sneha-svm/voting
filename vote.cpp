@@ -8,6 +8,9 @@ int main()
 	if(age==18){
 		cout<<"Eligible to vote\n";
 	}
+	else if(age>18){
+		cout<<"Eligible to vote\n";
+	}
 	else{
 		cout<<"Not Eligible to Vote";
 	}
