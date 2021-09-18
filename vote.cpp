@@ -6,13 +6,13 @@ int main()
 	cout<<"Enter the age of the person:\n";
 	cin>>age;
 	if(age==18){
-		cout<<"Eligible to vote\n";
+		cout<<"Eligible for Voting\n";
 	}
 	else if(age>18){
-		cout<<"Eligible to vote\n";
+		cout<<"Eligible for Voting\n";
 	}
 	else{
-		cout<<"Not Eligible to Vote";
+		cout<<"Not Eligible for Voting";
 	}
 	return 0;
 }
